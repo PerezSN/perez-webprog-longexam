@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-zinc-100 text-zinc-900 antialiased;
+      font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+  #root {
+    @apply min-h-screen;
+  }
+}

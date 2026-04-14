@@ -72,8 +72,8 @@ git init
 Stage and commit the project:
 
 ```bash
-git add .
-git commit -m "initial long-exam1"
+git add . //
+git commit -m "initial long-exam1" //
 ```
 
 Create a new repository on GitHub, then connect this local project to it. Replace `<github-repo-url>` with your repository URL:
@@ -81,7 +81,7 @@ Create a new repository on GitHub, then connect this local project to it. Replac
 ```bash
 git branch -M main
 git remote add origin <github-repo-url>
-git push -u origin main
+git push -u origin main //
 ```
 
 Example GitHub URL format:
